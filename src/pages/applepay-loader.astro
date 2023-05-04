@@ -1,7 +1,7 @@
 ---
 // import {loadScript} from "@paypal/paypal-js";
 
-const {product = {}} = Astro.props
+const {product = {subscription:false}} = Astro.props
 
 ---
 <applepay-loader data-product={product} />
@@ -22,10 +22,27 @@ const {product = {}} = Astro.props
     const applepayContainer = 'applepay_container'
     const storeName = "Ellek's Store (Card is NOT charged)"
     const isSandbox = (window?.location.href.toLowerCase().includes('sandbox') || window?.location.href.toLowerCase().includes('local')) ?? false
+    const isSubscription = (product) => !!product.subscription
+    const recurringPaymentRequest = (product) => !isSubscription(product) ? undefined : {
+        paymentDescription: 'Netflix subscription',
+        regularBilling: {
+            type: 'final',
+            label: 'Netflix subscription',
+            amount: getProductPrice(product) + getTaxTotal(product),
+            paymentTiming: 'recurring',
+            recurringPaymentIntervalUnit: 'month'
+        },
+        managementURL: 'https://netflix.com',
+        billingAgreement:
+            'A localized billing agreement displayed to the user in the payment sheet prior to the payment authorization.'
+    }
+    const requiredShippingContactFields = (product) => isSubscription(product) ? undefined : ["name", "phone", "email", "postalAddress"]
+    const paymentTiming = (product) => isSubscription(product) ? 'recurring' : undefined
 
 
 
-    function validate(ApplePaySession, product) {
+
+        function validate(ApplePaySession, product) {
         console.log('validating for product', product)
         if (!ApplePaySession) {
             console.error('This device does not support Apple Pay');
@@ -76,29 +93,35 @@ const {product = {}} = Astro.props
             merchantCapabilities: config.merchantCapabilities,
             supportedNetworks: config.supportedNetworks,
             currencyCode: "USD",
-            requiredShippingContactFields: ["name", "phone", "email", "postalAddress"],
+            requiredShippingContactFields: requiredShippingContactFields(product),
+            recurringPaymentRequest: recurringPaymentRequest(product),
+            paymentTiming: paymentTiming(product),
             requiredBillingContactFields: ["name", "phone", "email", "postalAddress"],
             lineItems: [
                 {
                     "label": product.title,
                     "type": "final",
-                    "amount": getProductPrice(product)
+                    "amount": getProductPrice(product),
+                    paymentTiming: paymentTiming(product),
                 },
                 {
                     "label": "Tax",
                     "type": "final",
-                    "amount": getTaxTotal(product)
+                    "amount": getTaxTotal(product),
+                    paymentTiming: paymentTiming(product),
                 },
                 {
                     "label": "Shipping",
                     "type": "final",
-                    "amount": getShipping()
+                    "amount": getShipping(),
+                    paymentTiming: paymentTiming(product),
                 }
             ],
             total: {
                 label: storeName,
                 type: "final",
                 amount: getProductPrice(product) + getTaxTotal(product) + getShipping(),
+                paymentTiming: paymentTiming(product)
             }
         };
 

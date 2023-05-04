@@ -2,9 +2,6 @@
 const applepayContainer = 'applepay_container'
 const storeName = "Ellek's Store (Card is NOT charged)"
 
-let product
-let loadScript
-
 function validate() {
     console.log(888, product)
     if (!window.ApplePaySession) {

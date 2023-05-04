@@ -9,52 +9,95 @@ import ProductOverviewGrid from '../components/products/productOverviewGrid';
 import StoreDoubleColumn from '../components/store/storeDoubleColumn';
 import ReviewSummaryChart from '../components/reviews/reviewSummaryChart';
 
-// filter reviews with ID 01
-let productReviews = data.reviews.filter(x => x.productID == "01");
+let product = data.products[0];
 
+// function productFromWindow(window) {
+//     const productId = new URLSearchParams(window.location.search).get('id');
+//     return data.products.filter(p => p.id === productId)[0]
+// }
 
 ---
+<script is:inline define:vars={{ product }}>
+    // const productId = new URLSearchParams(window.location.search).get('id');
+    // console.log('productID', productId)
+    // const productLocal = data.products.filter(p => p.id === productId)[0] ?? data.products[0]
+    // console.log('product', productLocal)
+    // alert(productLocal)
+</script>
+<script is:inline src="https://www.paypal.com/sdk/js?client-id=AeH0vEMSIJhmj8c9zEMii_Ftr_8Kvkhc72rSjW7Ri_vr3GorvmjWXxLBJnWDh-dpIpo_BH-S4fVqXec4&currency=USD&buyer-country=US&merchant-id=RZB8FGXVSK48S&components=applepay"></script>
+<script is:inline src="https://applepay.cdn-apple.com/jsapi/v1/apple-pay-sdk.js"></script>
+
+<script is:inline>
+    const applepayContainer = 'applepay_container'
+
+    console.log('Scripts loaded!')
+    if (!window.ApplePaySession) {
+        console.error('This device does not support Apple Pay');
+
+    } else if (!window.ApplePaySession.canMakePayments()) {
+        console.error('This device is not capable of making Apple Pay payments');
+    } else if (!window.paypal) {
+        console.error('window.paypal is null!')
+    } else {
+        const applepay = window.paypal.Applepay();
+        applepay.config()
+            .then(config => {
+                if (config.isEligible) {
+                    document.getElementById(applepayContainer).innerHTML = '<apple-pay-button buttonstyle="black" type="buy" locale="en"></apple-pay-button>'
+                    // document.getElementById(applepayContainer).innerHTML = 'Bruh it worked!'
+                }
+            })
+            .catch(err => {
+                console.error('Error while fetching apple pay configuration', err)
+            })
+    }
+    // From here, render apple pay button
+</script>
 
 <Layout title="Product Page">
-	<main>
-    <UpperNavbar />
-    <Navbar />
-    <div class="container mt-5">
-      <ProductOverviewGrid  
-        colors={data.products[0].colors}
-        images={data.products[0].images}
-        title={data.products[0].title}
-        full_description={data.products[0].full_description}
-        price={data.products[0].price}
-        highlights={data.products[0].highlights}
-        details={data.products[0].details}
-        rating={data.products[0].rating}
-        reviews={data.products[0].reviews}
-        sizes={data.products[0].sizes}
-      />    
+    <main>
+        <UpperNavbar />
+        <Navbar />
+        {product && (
+                <div class="container mt-5">
+                    <ProductOverviewGrid
+                            features={product.features}
+                            colors={product.colors}
+                            images={product.images}
+                            title={product.title}
+                            full_description={product.full_description}
+                            price={product.price}
+                            highlights={product.highlights}
+                            details={product.details}
+                            rating={product.rating}
+                            reviews={product.reviews}
+                            sizes={product.sizes}
+                    />
 
-      <div class="my-5">
-        <ReviewSummaryChart reviews = {productReviews}/>
-      </div>
+                    <div class="my-5">
+                        <ReviewSummaryChart reviews = {data.reviews} total_reviews={product.reviews} rating={product.rating}/>
+                    </div>
 
-      <div class="row">
-        <h5 class="mb-4">Customers also purchased</h5>
-        {data.products.map(product => 
-          <div class="col-md-6 col-lg-3">
-            <CardProduct 
-              thumb_src = {product.thumb_src}
-              thumb_alt = {product.thumb_alt}
-              color = {product.color}
-              title = {product.title}
-              price = {product.price}
-              position = "left"
-            />
-          </div>
-        )}        
-      </div>
-      <hr class="dark horizontal my-5" />
-      <StoreDoubleColumn />
-    </div>
-  </main>
+                    <div class="row">
+                        <h5 class="mb-4">Customers also purchased</h5>
+                        {data.products.map(product =>
+                                <div class="col-md-6 col-lg-3">
+                                    <CardProduct
+                                            id={product.id}
+                                            thumb_src = {product.thumb_src}
+                                            thumb_alt = {product.thumb_alt}
+                                            color = {product.color}
+                                            title = {product.title}
+                                            price = {product.price}
+                                            position = "left"
+                                    />
+                                </div>
+                        )}
+                    </div>
+                    <hr class="dark horizontal my-5" />
+                    <StoreDoubleColumn />
+                </div>
+        )}
+    </main>
 
 </Layout>

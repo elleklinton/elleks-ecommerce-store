@@ -5,7 +5,8 @@ import ProductSizes from './productSizes'
 
 interface Props {
   title: string;
-  colors: string[];
+  subscription?: boolean;
+  color: string;
   images: ({
     src: string;
     alt: string;
@@ -16,12 +17,12 @@ interface Props {
   details: string;
   rating: number;
   reviews: number;
-  sizes: Map<string,number>
+  features: string[]
 }
 
 export default function ProductOverview({
   title,
-  colors,
+    subscription,
   images,
   full_description,
   price,
@@ -29,70 +30,70 @@ export default function ProductOverview({
   details,
   rating,
   reviews,
-  sizes
+    features
 }: Props) {
-
+  // @ts-ignore
   return (
     <>
     <div className="card card-product card-plain">
-      {(images.length != 0) && 
+      {(images.length != 0) &&
       <ProductGallery images={images}/>
       }
       <div className="row mt-5">
         <div className="col-12 col-lg-8 border-end">
-          {(title.length != 0) && 
+          {(title.length != 0) &&
             <h2>{title}</h2>
           }
-          {(full_description.length != 0) && 
+          {(full_description.length != 0) &&
             <p>{full_description}</p>
           }
-          {(highlights.length != 0) && 
-           <>
-             <h6>Highlights</h6>
-              <ul className="text-sm">
-              {highlights.map(highlight => 
-                <li className="mb-2">{highlight}</li>
-              )}
-              </ul>
-           </>
+          {(details.length != 0) &&
+              <>
+                <h6>Details</h6>
+                <p>{details}</p>
+              </>
           }
-           {(details.length != 0) && 
-            <>
-              <h6>Details</h6>
-              <p>{details}</p>
-            </>
-           }
+          {(highlights.length != 0) &&
+              <>
+                <h6>Highlights</h6>
+                <ul className="text-sm">
+                  {highlights.map(highlight =>
+                      <li className="mb-2">{highlight}</li>
+                  )}
+                </ul>
+              </>
+          }
+          {(features.length != 0) &&
+              <>
+                <h6>Features</h6>
+                <ul className="text-sm">
+                  {features.map(feature =>
+                      <li className="mb-2">{feature}</li>
+                  )}
+                </ul>
+              </>
+          }
+
 
         </div>
         <div className="col-12 col-lg-4 ps-4">
           <form action="" method="post">
-            {(price.length != 0) && 
+            {/* @ts-ignore */}
+            {(price.length != 0) &&
             <div className="d-flex">
-              <h3 className="font-weight-normal">${price.toFixed(2)}</h3>
+              <h3 className="font-weight-normal">${price.toFixed(2) + (subscription ? '/month' : '')}</h3>
               <input className="opacity-0" defaultValue={price} />
             </div>
             }
-            {(rating != 0) && 
+            {(rating != 0) &&
             <>
               <h3 className="sr-only">Reviews</h3>
               <ProductRating rating={rating} reviews={reviews} />
             </>
             }
-            {(colors.length != 0) && 
-            <>
-            <h6 className="mt-4">Colors:</h6>
-            <div className="d-flex">
-              {(colors) &&
-                <ProductBadge colors={colors} />
-              }
-            </div>
-            </>
-            }
-            
-            {(sizes.size != 0) && 
-              <ProductSizes sizes={sizes}/>
-            }
-            <button className="btn btn-primary btn-lg w-100" type="submit">Add to cart</button>
+            <br/>
+            <div id={"applepay_container"}></div>
+            {/*<button className="btn btn-primary btn-lg w-100" type="submit">Add to cart</button>*/}
           </form>
         </div>
       </div>

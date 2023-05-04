@@ -1,6 +1,8 @@
 import ProductBadge from './productBadge';
 
 interface Props {
+  id: string;
+  subscription: boolean;
   thumb_src: string;
   thumb_alt: string;
   title: string;
@@ -12,6 +14,8 @@ interface Props {
 }
 
 export default function CardProduct({
+  id,
+    subscription,
   thumb_src,
   thumb_alt,
   title,
@@ -27,30 +31,30 @@ export default function CardProduct({
   return (
     <>
       <div className="card card-product border border-white mb-5 shadow-xs">
-        <a href="#">
+        <a href={`/products/${id}`}>
           <div className="height-300">
             <img className="w-100 h-100 rounded-top" src={thumb_src} alt={thumb_alt} />
           </div>
           <div className={classList}>
-            {(color) && 
+            {(color) &&
               <p className="text-sm mb-1 text-body">{color}</p>
             }
-            {(title) && 
+            {(title) &&
               <h5 className="font-weight-bold">
                 {title}
               </h5>
             }
 
-            {(description) && 
+            {(description) &&
               <p className="text-body text-sm">{description}</p>
             }
-           
-            {(price) && 
+
+            {(price) &&
               <p className="mb-0 text-sm text-body mt-1 mb-3">
-                ${price.toFixed(2)}
+                ${price.toFixed(2) + (subscription ? '/month' : '')}
               </p>
             }
-           
+
             {(colors) &&
               <ProductBadge colors={colors} />
             }

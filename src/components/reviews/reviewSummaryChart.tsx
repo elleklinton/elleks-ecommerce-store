@@ -10,24 +10,25 @@ interface Props {
     rating: number;
     comment: string;
     productID: number;
-  }[]
+  }[],
+  total_reviews: number;
+  rating: number;
 }
 
 export default function ReviewSummaryChart({
-  reviews
+  reviews,
+    total_reviews,
+    rating
 }: Props) {
 
   let CommentsList = [];
-  let rating = 0;  
 
-  reviews.map(review => {  
-    rating += review.rating;
+  reviews.map(review => {
     CommentsList.push(
-      <ReviewComment review={review} /> 
+      <ReviewComment review={review} />
     )
   });
-  
-  rating = Math.trunc(rating / reviews.length);
+
 
   return (
     <>
@@ -38,7 +39,7 @@ export default function ReviewSummaryChart({
           <h4 className="mb-3">Customer Reviews</h4>
           <div className="d-flex">
             <ReviewRating rating={rating}/>
-            <p className="mb-0 ms-2">Based on <b>{reviews.length}</b> reviews</p> 
+            <p className="mb-0 ms-2">Based on <b>{total_reviews ?? 0}</b> reviews</p>
           </div>
           <div className="my-4">
             <ReviewProgress reviews={reviews}/>
@@ -59,6 +60,6 @@ export default function ReviewSummaryChart({
     </div>
 
     </>
-    
+
   );
 };

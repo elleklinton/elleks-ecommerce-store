@@ -1,208 +1,165 @@
 {
   "products": [
     {
-      "id": "01",
-      "thumb_src": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-      "thumb_alt": "watch-image",
+      "id": "tesla",
+      "thumb_src": "https://ev-database.org/img/auto/Tesla_Model_S_2021/Tesla_Model_S_2021-01@2x.jpg",
+      "thumb_alt": "tesla-image",
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "src": "https://www.topgear.com/sites/default/files/images/news-article/2020/09/b545362cfc4bc0818da57ed0e40a5e44/1.jpg",
           "alt": "first_image"
         },
         {
-          "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-          "alt": "second_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+          "src": "https://s3-prod.autonews.com/s3fs-public/styles/800x600/public/Tesla-Model%20S%20PLAID%20web.jpg",
           "alt": "third_image"
         },
         {
-          "src": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+          "src": "https://www.forbes.com/wheels/wp-content/uploads/2021/01/Tesla_S_Plaid_SEO.jpg",
           "alt": "fourth_image"
         }
       ],
-      "color": "8 colors",
-      "colors": [
-        "red", 
-        "blue", 
-        "green"
-      ],
-      "title": "Basic Starter Pack",
-      "price": 399,
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The Basic Starter Pack allows you to fully express your vibrant personality with four grayscale options. Feeling adventurous? Put on a heather gray shirt. Want to be a trendsetter? Try our exclusive colorway: `Orange`. Need to add an extra pop of color to your outfit? Our white shirt has you covered.",
-      "details": "The Stater pack includes 2 black, 2 white, and 2 heather gray Basic Shirts. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
+      "color": "Red",
+      "title": "Tesla",
+      "price": 185000,
+      "description": "The Tesla Model S Plaid edition is a high-performance electric sedan with a top speed of 200 mph and a range of over 350 miles per charge.",
+      "full_description": "The Tesla Model S Plaid edition is the latest and most powerful version of the Model S electric sedan. It features a tri-motor setup that generates up to 1,020 horsepower, enabling it to accelerate from 0 to 60 mph in under two seconds, making it one of the fastest production cars in the world. The Plaid edition also boasts a range of over 350 miles per charge, making it one of the longest-range electric cars on the market. With a top speed of 200 mph, the Model S Plaid edition offers unparalleled performance and driving experience.",
+      "details": "The Tesla Model S Plaid edition boasts several cutting-edge features, including a new heat pump that improves the car's energy efficiency and climate control. It also comes with an updated battery pack that enables faster charging times and better thermal management. The Plaid edition features a revamped interior with a new infotainment system that includes a 17-inch touchscreen display, gaming capabilities, and a 22-speaker audio system. Additionally, it comes with advanced driver-assist features, such as Tesla's Autopilot and Full Self-Driving capabilities, making it one of the most advanced and autonomous electric cars on the market.",
       "highlights": [
-        "Hand cut and sewn locally",
-        "Dryed with our proprietary colors",
-        "Pre-washed & pre-shrunk with caution",
-        "Ultra-soft 100% cotton"
+        "Unmatched performance: With up to 1,020 horsepower and a 0-60 mph time of under two seconds, the Plaid edition is one of the fastest production cars ever made.\n\n",
+        "Long-range capability: The Plaid edition offers a range of over 350 miles per charge, making it one of the longest-range electric cars on the market.\n\n",
+        "Advanced technology: The Plaid edition comes with Tesla's latest technology, including an updated infotainment system, advanced driver-assist features, and over-the-air software updates.\n\n",
+        "Unique design: The Plaid edition features a unique aerodynamic design, including a carbon fiber rear spoiler and a new heat pump system that improves energy efficiency and climate control.\n\n\n"
       ],
       "features": [
-        "Multiple strap configuration",
-        "Water Resistant",
-        "Stainless strap loops",
-        "Ultra-soft 100% cotton"
+        "Tri-motor setup: The Plaid edition features a tri-motor setup that generates up to 1,020 horsepower, allowing the car to accelerate from 0 to 60 mph in under two seconds.\n\n",
+        "Updated battery pack: The Plaid edition comes with an updated battery pack that enables faster charging times and better thermal management, improving the car's range and overall performance.\n\n",
+        "Advanced driver-assist features: The Plaid edition comes with Tesla's advanced driver-assist features, including Autopilot and Full Self-Driving capabilities, making it one of the most autonomous electric cars on the market.\n\n",
+        "Revamped interior: The Plaid edition features a revamped interior with a new infotainment system that includes a 17-inch touchscreen display, gaming capabilities, and a 22-speaker audio system, providing passengers with a premium and immersive experience.\n\n\n"
       ],
-      "rating": 4,
-      "reviews": 117,
-      "size": "Small",
-      "sizes": {
-        "XXS": 3,
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 1213,
-        "XL": 6,
-        "2XL": 2,
-        "3XL": 0
-      },
-      "data": {
-        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-      },
-      "featuresDetails": {
-        "Origin": "Designed by Good Goods, Inc.",
-        "Material": "Solid walnut base with rare earth magnets and powder coated steel card cover",
-        "Dimensions": "6.25 x 3.55' x 1.15'",
-        "Finish": "Hand sanded and finished with natural oil",
-        "Includes": "Wood card tray and 3 refill packs",
-        "Considerations": "Made from natural materials. Grain and color vary with each item."
-      },
-      "stock": true
-    },
-    {
-      "id": "02",
-      "thumb_src": "https://images.unsplash.com/photo-1548960254-5139d80bd5ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-      "thumb_alt": "watch-image",
-      "images": [
-        {
-          "src": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-          "alt": "first_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-          "alt": "second_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1508296695146-257a814070b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-          "alt": "third_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1522125123931-9304d91a42ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-          "alt": "fourth_image"
-        }
-      ],
-      "color": "Black",
-      "colors": ["black", "green"],
-      "title": "Apple Watch",
-      "price": 199,
       "rating": 5,
-      "reviews": 117,
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
-      "features": [
-        "Multiple strap configuration",
-        "Water Resistant",
-        "Stainless strap loops",
-        "Ultra-soft 100% cotton"
-      ],
-      "size": "Medium",
-      "sizes": {
-        "XXS": 1,
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 0,
-        "XL": 6,
-        "2XL": 2,
-        "3XL": 0
-      },
-      "data": {
-        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-      },
-      "featuresDetails": {
-        "Origin": "Designed by Good Goods, Inc.",
-        "Material": "Solid walnut base with rare earth magnets and powder coated steel card cover",
-        "Dimensions": "6.25 x 3.55' x 1.15'",
-        "Finish": "Hand sanded and finished with natural oil",
-        "Includes": "Wood card tray and 3 refill packs",
-        "Considerations": "Made from natural materials. Grain and color vary with each item."
-      },
-      "stock": false
-    },
-    {
-      "id": "03",
-      "thumb_src": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-      "thumb_alt": "iMac-image",
-      "images": [
-        {
-          "src": "https://images.unsplash.com/photo-1567790350645-dbc1486a89c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "first_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1593088177922-aa1c5055c7b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "second_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1635594202056-9ea3b497e5c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "third_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1593085260707-5377ba37f868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "fourth_image"
-        }
-      ],
-      "color": "Yellow",
-      "colors": ["SpaceGray"],
-      "title": "iMac",
-      "description": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented",
-      "price": 1399,
-      "size": "Large",
-      "sizes": {
-        "XXS": 1,
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 0,
-        "XL": 6,
-        "2XL": 2,
-        "3XL": 0
-      },
-      "data": {
-        "Design": "If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
-        "Material": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it? People are so scared to lose that they don't even try.",
-        "Considerations": "I always felt like I could do anything. That’s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can’t do anything, you won’t do anything. I was taught I could do everything.",
-        "Included": "We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game of life you need to appreciate every moment. A lot of people don’t appreciate the moment until it’s passed."
-      },
+      "reviews": 10001,
       "stock": true
     },
     {
-      "id": "04",
-      "thumb_src": "https://images.unsplash.com/photo-1505156868547-9b49f4df4e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-      "thumb_alt": "iPhone_thumb",
-      "color": "Blue",
-      "title": "iPhone",
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "price": 1599.99,
-      "size": "Small",
-      "sizes": {
-        "XXS": 1,
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 0,
-        "XL": 6,
-        "2XL": 2,
-        "3XL": 0
-      },
-      "stock": false
+      "id": "airpods",
+      "thumb_src": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-spacegray-202011_FMT_WHH?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1604615275000",
+      "thumb_alt": "airpods-image",
+      "images": [
+        {
+          "src": "https://m.media-amazon.com/images/I/813LwotY94L._AC_UF1000,1000_QL80_.jpg",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F12%2Fairpods-max-closer-look-12.jpg?q=75&w=800&cbr=1&fit=max",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://bgr.com/wp-content/uploads/2021/07/apple-airpods-max-2.jpg?quality=82&strip=all",
+          "alt": "fourth_image"
+        }
+      ],
+      "color": "Space Gray",
+      "title": "Airpods",
+      "price": 420.00,
+      "description": "The AirPods Max are over-ear wireless headphones designed by Apple, featuring high-fidelity audio, active noise cancellation, and a sleek, minimalist design.\n\n\n",
+      "full_description": "The AirPods Max are a premium over-ear wireless headphone option from Apple that feature high-fidelity audio with custom acoustic design, active noise cancellation, and spatial audio for a more immersive listening experience. The headphones are crafted from premium materials such as stainless steel, breathable mesh canopy, and memory foam ear cushions for a comfortable fit. The AirPods Max also include convenient features such as automatic pause/play when removing or placing the headphones on your head, and Siri voice control for hands-free use. Finally, the headphones come with a smart case that puts them in an ultra-low power state to preserve battery life when not in use.",
+      "details": "The AirPods Max feature a custom acoustic design that delivers high-fidelity audio with deep bass, accurate mids, and crisp, clean highs. The headphones also feature active noise cancellation, which uses advanced algorithms to block out external noise and provide a more immersive listening experience. In addition, the AirPods Max include Spatial Audio, which uses dynamic head tracking to create a surround sound experience that adjusts to your head movement. The headphones are designed with a breathable mesh canopy and memory foam ear cushions that provide a comfortable fit, even during long listening sessions.",
+      "highlights": [
+        "High-fidelity audio: The AirPods Max feature custom acoustic design and high-fidelity audio that delivers rich, detailed sound with deep bass and clear highs.\n\n",
+        "Active noise cancellation: The headphones use advanced algorithms to block out external noise, creating a more immersive listening experience.\n\n",
+        "Spatial Audio: The AirPods Max include Spatial Audio technology, which creates a surround sound experience that adjusts to your head movement.\n\n",
+        "Premium design: The headphones are crafted from premium materials such as stainless steel, breathable mesh canopy, and memory foam ear cushions, providing a comfortable and luxurious fit.\n\n\n"
+      ],
+      "features": [
+        "Convenient controls: The AirPods Max feature a Digital Crown that allows you to easily control volume, play/pause, skip tracks, and activate Siri without needing to use your phone. The headphones also automatically pause music when you take them off and resume when you put them back on.\n\n\n",
+        "Adaptive EQ: The headphones feature Adaptive EQ, which automatically tunes the audio to the shape of your ear for a more personalized and immersive listening experience.",
+        "Battery life: The AirPods Max offer up to 20 hours of battery life, and the headphones include a Smart Case that puts them into an ultra-low power state to preserve battery life when not in use.",
+        "Seamless connectivity: The headphones are easy to connect to your Apple devices and automatically switch between them, so you can seamlessly switch between your iPhone, iPad, and Mac without needing to manually connect each time."
+      ],
+      "rating": 4.8,
+      "reviews": 666,
+      "stock": true
+    },
+    {
+      "id": "twitter",
+      "thumb_src": "https://media.bizj.us/view/img/11855675/twitter*1200xx4032-2268-0-378.jpg",
+      "thumb_alt": "twitter-image",
+      "images": [
+        {
+          "src": "https://static.dezeen.com/uploads/2013/12/Twitters-colourful-global-headquarters-by-IA-Architects-and-Lundberg-Design_dezeen_30sq.jpg",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://www.officelovin.com/wp-content/uploads/2020/02/twitter-toronto-office-m.jpg",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://static.dezeen.com/uploads/2013/12/Twitters-colourful-global-headquarters-by-IA-Architects-and-Lundberg-Design_dezeen_29.jpg",
+          "alt": "fourth_image"
+        }
+      ],
+      "color": "Take Private",
+      "title": "Twitter Inc.",
+      "price": 9000000,
+      "description": "Don't miss out on an incredible investment opportunity! For just $900, you could own Twitter, a social media platform that connects millions of users around the world and has a current valuation of over $50 billion!",
+      "full_description": "Looking for an investment opportunity with enormous potential? Look no further than Twitter! For just $900, you could own a piece of this social media platform that connects millions of users and generates billions in revenue. With a current valuation of over $50 billion, Twitter is one of the most valuable companies on the internet. Don't wait – act now and take advantage of this incredible opportunity to own a piece of Twitter and potentially reap huge rewards!\n\n\n",
+      "details": "With its real-time updates and viral potential, Twitter has revolutionized the way we communicate and consume information. As an investor in Twitter, you would be taking advantage of its massive user base and cutting-edge technology to generate revenue through advertising, promoted tweets, and other monetization strategies. Plus, with Twitter's continued growth and expansion into new markets, your investment is poised to see significant returns in the years to come. So why wait? Invest in Twitter today and start building your portfolio for the future!",
+      "highlights": [
+        "Incredible potential for growth: With millions of users and a strong revenue stream, Twitter has enormous potential for continued growth and profitability.\n\n",
+        "Valuable asset: Twitter is currently valued at over $50 billion, making it one of the most valuable companies on the internet.\n\n",
+        "Well-established platform: Twitter has been around for over a decade and has become a staple of modern communication, making it a reliable and trustworthy investment.\n\n",
+        "Easy to own: For just $900, you could own a piece of this powerful social media platform, potentially earning significant returns on your investment.\n\n\n"
+      ],
+      "features": [
+        "A Once-in-a-Lifetime Opportunity: Twitter is a household name and a social media platform that has revolutionized the way people communicate and connect. For just $900, you can own a piece of this groundbreaking company.\n\n",
+        "A Billion-Dollar Business: Twitter is one of the most valuable companies on the internet, generating billions in revenue each year. As an investor, you'll have the potential to reap huge rewards as the company continues to grow and expand.\n\n",
+        "A Global Community: With over 330 million active users around the world, Twitter is a platform that connects people from all walks of life. As an investor, you'll be part of this community and have a stake in its continued success.\n\n",
+        "Unmatched Potential: Twitter is constantly evolving and innovating, with new features and products that keep users engaged and connected. As an investor, you'll have a front-row seat to this innovation and the potential to benefit from the company's continued growth and success.\n\n\n"
+      ],
+      "rating": 3.5,
+      "reviews": 12321,
+      "stock": true
+    },
+    {
+      "id": "netflix",
+      "thumb_src": "https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png",
+      "thumb_alt": "netflix-image",
+      "images": [
+        {
+          "src": "https://nofilmschool.com/sites/default/files/styles/facebook/public/twin_peaks_-_the_red_room.jpg?itok=bvfnoe2b",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://pbblogassets.s3.amazonaws.com/uploads/2020/12/03145552/Cinematography.jpg",
+          "alt": "third_image"
+        },
+        {
+          "src": "https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png",
+          "alt": "fourth_image"
+        }
+      ],
+      "color": "Monthly Subscription",
+      "title": "Netflix Subscription",
+      "price": 16,
+      "subscription": true,
+      "description": "Experience the ultimate entertainment package with Netflix's premium subscription for just $19.99 per month, featuring 4K Ultra HD video quality, support for multiple screens, and a vast library of movies and TV shows to choose from.",
+      "full_description": "Looking for endless entertainment at your fingertips? Look no further than Netflix! With a subscription priced at just $19.99 per month, you'll have access to thousands of movies, TV shows, and original series that you can watch anytime, anywhere. From award-winning dramas to family-friendly comedies, Netflix has something for everyone. Don't miss out – sign up today and start streaming your favorite content!",
+      "details": "With a Netflix subscription for just $19.99 per month, you'll gain access to thousands of movies, TV shows, and original content that you won't find anywhere else. From award-winning dramas and comedies to thrilling action movies and documentaries, there's something for everyone on Netflix. Plus, with the ability to stream on multiple devices and download content to watch offline, you can enjoy your favorite shows and movies anytime, anywhere. Don't miss out on this incredible offer to join the millions of satisfied Netflix subscribers around the world – sign up today!\n\n\n",
+      "highlights": [
+        "Unlimited Streaming: With a Netflix subscription, you'll have unlimited access to thousands of TV shows, movies, and original content, all for one low monthly price.\n\n",
+        "Ad-Free Viewing: Unlike other streaming platforms, Netflix doesn't include any ads or commercials during your viewing experience, so you can enjoy your favorite content uninterrupted.\n\n",
+        "Multiple Profiles: With a Netflix subscription, you can create up to five different profiles for different members of your household, each with their own recommendations and watch history.\n\n",
+        "Downloadable Content: With the ability to download select TV shows and movies, you can take your Netflix content on the go and watch it anywhere, without needing an internet connection.\n\n\n"
+      ],
+      "features": [
+        "Award-winning content: Netflix is known for producing critically acclaimed original content, including shows like Stranger Things, The Crown, and Ozark. With a subscription for just $19.99 a month, you'll have access to all this and more.\n\n",
+        "Customizable playback: Netflix lets you adjust your playback settings to your preference, including speed, subtitles, and audio options. You can even create your own watchlist of shows and movies for easy access.\n\n",
+        "Variety of genres: Whether you're in the mood for action, romance, comedy, or horror, Netflix has a wide selection of content to choose from. With a subscription at just $19.99 a month, you'll never run out of things to watch.\n\n",
+        "Compatibility with multiple devices: With a Netflix subscription, you can stream your favorite shows and movies on multiple devices, including your phone, tablet, laptop, or TV. Plus, you can watch on up to four different screens at the same time, perfect for sharing with family or friends.\n\n\n"
+      ],
+      "rating": 4.9,
+      "reviews": 1000,
+      "stock": true
     }
   ],
   "categories": [
@@ -351,12 +308,12 @@
     }
   ],
   "shoppingCart": [
-    "01", 
-    "02", 
+    "01",
+    "02",
     "03"
   ],
-  "shoppingCart2": [ 
-    "02", 
+  "shoppingCart2": [
+    "02",
     "03",
     "04"
   ]

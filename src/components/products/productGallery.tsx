@@ -17,12 +17,12 @@ export default function ProductGallery({
         </div>
         <div className="col-4">
           <img className="w-100 rounded-2" src={images[1].src} alt={images[1].alt} />
-          <img className="w-100 mt-4 rounded-2" src={images[2].src} alt={images[2].alt} />
+          {/*<img className="w-100 mt-4 rounded-2" src={images[2].src} alt={images[2].alt} />*/}
         </div>
         <div className="col-4">
-          <img className="w-100 rounded-2" src={images[3].src} alt={images[3].alt} />
+          <img className="w-100 rounded-2" src={images[2].src} alt={images[2].alt} />
         </div>
-      </div>  
+      </div>
     </>
   );
 }

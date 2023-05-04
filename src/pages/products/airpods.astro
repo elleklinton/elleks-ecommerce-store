@@ -10,9 +10,12 @@ import StoreDoubleColumn from '../../components/store/storeDoubleColumn';
 import ReviewSummaryChart from '../../components/reviews/reviewSummaryChart';
 
 let product = data.products[1]
+
+let scriptSrcSb = "https://www.paypal.com/sdk/js?client-id=AcNuzeT82VwBR6E52xnPBKqebzewygD0vbDctHiWv_3LcpKpCRZoetN_9WG8fzihYjVkWefwuXyai0nf&currency=USD&buyer-country=US&merchant-id=RZB8FGXVSK48S&components=applepay"
+let scriptSrcProd = "https://www.paypal.com/sdk/js?client-id=AeH0vEMSIJhmj8c9zEMii_Ftr_8Kvkhc72rSjW7Ri_vr3GorvmjWXxLBJnWDh-dpIpo_BH-S4fVqXec4&currency=USD&buyer-country=US&merchant-id=AEZMDHDQ9RTUS&components=applepay"
 ---
 
-<script is:inline src="https://www.paypal.com/sdk/js?client-id=AeH0vEMSIJhmj8c9zEMii_Ftr_8Kvkhc72rSjW7Ri_vr3GorvmjWXxLBJnWDh-dpIpo_BH-S4fVqXec4&currency=USD&buyer-country=US&merchant-id=RZB8FGXVSK48S&components=applepay"></script>
+<script is:inline src={scriptSrcProd}></script>
 <script is:inline src="https://applepay.cdn-apple.com/jsapi/v1/apple-pay-sdk.js"></script>
 
 <script is:inline define:vars={{product}}>

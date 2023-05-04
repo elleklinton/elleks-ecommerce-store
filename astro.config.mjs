@@ -6,7 +6,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: 'https://elleklinton.github.io',
+  site: 'https://glamazonwebservices.com',
   base: '/',
   server: {
     port: 8000

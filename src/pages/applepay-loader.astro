@@ -80,7 +80,8 @@ const {product = {subscription:false}} = Astro.props
         setTimeout(() => {
             console.log("marking payment as complete")
             session.completePayment(ApplePaySession.STATUS_SUCCESS)
-        }, 500)
+            window.location.href = '/checkout/success'
+        }, 100)
     }
 
     const getProductPrice = (product) => product.price

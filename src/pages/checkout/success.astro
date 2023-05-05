@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import data from '../../../public/data.json';
+import '../../../assets/scss/astro-ecommerce.scss';
+import CardCategory from '../../components/products/cardCategory';
+import ProductFeature from '../../components/products/productFeature';
+import Navbar from '../../components/navbar';
+import StoreDoubleColumn from '../../components/store/storeDoubleColumn';
+import TestimonialsFade from '../../components/promo/testimonialsFade';
+import PromoSectionLarge from '../../components/promo/promoSectionLarge';
+import CardProduct from "../../components/products/cardProduct";
+---
+
+<Layout title="Landing Page">
+    <main>
+        <Navbar />
+        <div class="container my-5 success-bucket">
+            <div class="success-bucket">
+                <h2>Order Was Successful!</h2>
+                Please be aware that this website is a fake e-commerce store for demonstration purposes only. Your actual payment has not been processed nor saved, and no actual products will be delivered.
+            </div>
+
+            <StoreDoubleColumn />
+
+        </div>
+    </main>
+
+</Layout>
+

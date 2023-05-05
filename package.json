@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "start:https": "http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -43,6 +44,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "sass": "^1.55.0"
   },
   "repository": {

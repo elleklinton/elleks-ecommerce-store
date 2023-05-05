@@ -14,21 +14,6 @@ import ApplePayLoader from '../applepay-loader.astro'
 let product = data.products[1]
 let reviews = data.reviews.filter(r => r.productID === product.id)
 
-
-let isSandbox: boolean = true;
-
-let clientIds: {
-    sandbox: "AeH0vEMSIJhmj8c9zEMii_Ftr_8Kvkhc72rSjW7Ri_vr3GorvmjWXxLBJnWDh-dpIpo_BH-S4fVqXec4"
-    production: "AcNuzeT82VwBR6E52xnPBKqebzewygD0vbDctHiWv_3LcpKpCRZoetN_9WG8fzihYjVkWefwuXyai0nf"
-}
-
-let merchantIds: {
-    sandbox: "RZB8FGXVSK48S"
-    production: "AEZMDHDQ9RTUS"
-}
-
-console.log('is sandbox:', !!isSandbox)
-
 ---
 <script is:inline src="https://applepay.cdn-apple.com/jsapi/v1/apple-pay-sdk.js"></script>
 <ApplePayLoader product={JSON.stringify(product)} />

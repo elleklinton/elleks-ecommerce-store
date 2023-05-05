@@ -34,7 +34,7 @@ const {product = {subscription:false}} = Astro.props
         },
         managementURL: 'https://netflix.com',
         billingAgreement:
-            'A localized billing agreement displayed to the user in the payment sheet prior to the payment authorization.'
+            'This is a simulated e-commerce store for testing and educational purposes only. No actual payments or transactions will be processed. All purchases made on this website are for demonstration purposes only.'
     }
     const requiredShippingContactFields = (product) => isSubscription(product) ? undefined : ["name", "phone", "email", "postalAddress"]
     const paymentTiming = (product) => isSubscription(product) ? 'recurring' : undefined

@@ -11,6 +11,7 @@ import ReviewSummaryChart from '../../components/reviews/reviewSummaryChart';
 import ApplePayLoader from "../applepay-loader.astro";
 
 let product = data.products[2]
+let reviews = data.reviews.filter(r => r.productID === product.id)
 
 ---
 
@@ -39,7 +40,7 @@ let product = data.products[2]
             />
 
             <div class="my-5">
-                <ReviewSummaryChart reviews = {data.reviews} total_reviews={product.reviews} rating={product.rating}/>
+                <ReviewSummaryChart reviews = {reviews} total_reviews={product.reviews} rating={product.rating}/>
             </div>
 
             <div class="row">

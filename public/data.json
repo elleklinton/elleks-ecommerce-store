@@ -1,43 +1,44 @@
 {
   "products": [
     {
-      "id": "tesla",
-      "thumb_src": "https://ev-database.org/img/auto/Tesla_Model_S_2021/Tesla_Model_S_2021-01@2x.jpg",
-      "thumb_alt": "tesla-image",
+      "id": "netflix",
+      "thumb_src": "https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png",
+      "thumb_alt": "netflix-image",
       "images": [
         {
-          "src": "https://www.topgear.com/sites/default/files/images/news-article/2020/09/b545362cfc4bc0818da57ed0e40a5e44/1.jpg",
+          "src": "https://nofilmschool.com/sites/default/files/styles/facebook/public/twin_peaks_-_the_red_room.jpg?itok=bvfnoe2b",
           "alt": "first_image"
         },
         {
-          "src": "https://s3-prod.autonews.com/s3fs-public/styles/800x600/public/Tesla-Model%20S%20PLAID%20web.jpg",
+          "src": "https://pbblogassets.s3.amazonaws.com/uploads/2020/12/03145552/Cinematography.jpg",
           "alt": "third_image"
         },
         {
-          "src": "https://www.forbes.com/wheels/wp-content/uploads/2021/01/Tesla_S_Plaid_SEO.jpg",
+          "src": "https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png",
           "alt": "fourth_image"
         }
       ],
-      "color": "Red",
-      "title": "Tesla",
-      "price": 185000,
-      "description": "The Tesla Model S Plaid edition is a high-performance electric sedan with a top speed of 200 mph and a range of over 350 miles per charge.",
-      "full_description": "The Tesla Model S Plaid edition is the latest and most powerful version of the Model S electric sedan. It features a tri-motor setup that generates up to 1,020 horsepower, enabling it to accelerate from 0 to 60 mph in under two seconds, making it one of the fastest production cars in the world. The Plaid edition also boasts a range of over 350 miles per charge, making it one of the longest-range electric cars on the market. With a top speed of 200 mph, the Model S Plaid edition offers unparalleled performance and driving experience.",
-      "details": "The Tesla Model S Plaid edition boasts several cutting-edge features, including a new heat pump that improves the car's energy efficiency and climate control. It also comes with an updated battery pack that enables faster charging times and better thermal management. The Plaid edition features a revamped interior with a new infotainment system that includes a 17-inch touchscreen display, gaming capabilities, and a 22-speaker audio system. Additionally, it comes with advanced driver-assist features, such as Tesla's Autopilot and Full Self-Driving capabilities, making it one of the most advanced and autonomous electric cars on the market.",
+      "color": "Monthly Subscription",
+      "title": "Netflix Subscription",
+      "price": 16,
+      "subscription": true,
+      "description": "Experience the ultimate entertainment package with Netflix's premium subscription for just $16 per month, featuring 4K Ultra HD video quality, support for multiple screens, and a vast library of movies and TV shows to choose from.",
+      "full_description": "Looking for endless entertainment at your fingertips? Look no further than Netflix! With a subscription priced at just $16 per month, you'll have access to thousands of movies, TV shows, and original series that you can watch anytime, anywhere. From award-winning dramas to family-friendly comedies, Netflix has something for everyone. Don't miss out – sign up today and start streaming your favorite content!",
+      "details": "With a Netflix subscription for just $16 per month, you'll gain access to thousands of movies, TV shows, and original content that you won't find anywhere else. From award-winning dramas and comedies to thrilling action movies and documentaries, there's something for everyone on Netflix. Plus, with the ability to stream on multiple devices and download content to watch offline, you can enjoy your favorite shows and movies anytime, anywhere. Don't miss out on this incredible offer to join the millions of satisfied Netflix subscribers around the world – sign up today!\n\n\n",
       "highlights": [
-        "Unmatched performance: With up to 1,020 horsepower and a 0-60 mph time of under two seconds, the Plaid edition is one of the fastest production cars ever made.\n\n",
-        "Long-range capability: The Plaid edition offers a range of over 350 miles per charge, making it one of the longest-range electric cars on the market.\n\n",
-        "Advanced technology: The Plaid edition comes with Tesla's latest technology, including an updated infotainment system, advanced driver-assist features, and over-the-air software updates.\n\n",
-        "Unique design: The Plaid edition features a unique aerodynamic design, including a carbon fiber rear spoiler and a new heat pump system that improves energy efficiency and climate control.\n\n\n"
+        "Unlimited Streaming: With a Netflix subscription, you'll have unlimited access to thousands of TV shows, movies, and original content, all for one low monthly price.\n\n",
+        "Ad-Free Viewing: Unlike other streaming platforms, Netflix doesn't include any ads or commercials during your viewing experience, so you can enjoy your favorite content uninterrupted.\n\n",
+        "Multiple Profiles: With a Netflix subscription, you can create up to five different profiles for different members of your household, each with their own recommendations and watch history.\n\n",
+        "Downloadable Content: With the ability to download select TV shows and movies, you can take your Netflix content on the go and watch it anywhere, without needing an internet connection.\n\n\n"
       ],
       "features": [
-        "Tri-motor setup: The Plaid edition features a tri-motor setup that generates up to 1,020 horsepower, allowing the car to accelerate from 0 to 60 mph in under two seconds.\n\n",
-        "Updated battery pack: The Plaid edition comes with an updated battery pack that enables faster charging times and better thermal management, improving the car's range and overall performance.\n\n",
-        "Advanced driver-assist features: The Plaid edition comes with Tesla's advanced driver-assist features, including Autopilot and Full Self-Driving capabilities, making it one of the most autonomous electric cars on the market.\n\n",
-        "Revamped interior: The Plaid edition features a revamped interior with a new infotainment system that includes a 17-inch touchscreen display, gaming capabilities, and a 22-speaker audio system, providing passengers with a premium and immersive experience.\n\n\n"
+        "Award-winning content: Netflix is known for producing critically acclaimed original content, including shows like Stranger Things, The Crown, and Ozark. With a subscription for just $16 a month, you'll have access to all this and more.\n\n",
+        "Customizable playback: Netflix lets you adjust your playback settings to your preference, including speed, subtitles, and audio options. You can even create your own watchlist of shows and movies for easy access.\n\n",
+        "Variety of genres: Whether you're in the mood for action, romance, comedy, or horror, Netflix has a wide selection of content to choose from. With a subscription at just $16 a month, you'll never run out of things to watch.\n\n",
+        "Compatibility with multiple devices: With a Netflix subscription, you can stream your favorite shows and movies on multiple devices, including your phone, tablet, laptop, or TV. Plus, you can watch on up to four different screens at the same time, perfect for sharing with family or friends.\n\n\n"
       ],
-      "rating": 5,
-      "reviews": 10001,
+      "rating": 4.9,
+      "reviews": 1000,
       "stock": true
     },
     {
@@ -60,7 +61,7 @@
       ],
       "color": "Space Gray",
       "title": "Airpods",
-      "price": 420.00,
+      "price": 500.00,
       "description": "The AirPods Max are over-ear wireless headphones designed by Apple, featuring high-fidelity audio, active noise cancellation, and a sleek, minimalist design.\n\n\n",
       "full_description": "The AirPods Max are a premium over-ear wireless headphone option from Apple that feature high-fidelity audio with custom acoustic design, active noise cancellation, and spatial audio for a more immersive listening experience. The headphones are crafted from premium materials such as stainless steel, breathable mesh canopy, and memory foam ear cushions for a comfortable fit. The AirPods Max also include convenient features such as automatic pause/play when removing or placing the headphones on your head, and Siri voice control for hands-free use. Finally, the headphones come with a smart case that puts them in an ultra-low power state to preserve battery life when not in use.",
       "details": "The AirPods Max feature a custom acoustic design that delivers high-fidelity audio with deep bass, accurate mids, and crisp, clean highs. The headphones also feature active noise cancellation, which uses advanced algorithms to block out external noise and provide a more immersive listening experience. In addition, the AirPods Max include Spatial Audio, which uses dynamic head tracking to create a surround sound experience that adjusts to your head movement. The headphones are designed with a breathable mesh canopy and memory foam ear cushions that provide a comfortable fit, even during long listening sessions.",
@@ -121,44 +122,43 @@
       "stock": true
     },
     {
-      "id": "netflix",
-      "thumb_src": "https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png",
-      "thumb_alt": "netflix-image",
+      "id": "svb",
+      "thumb_src": "https://i.imgur.com/tUPlhpd.jpg",
+      "thumb_alt": "tesla-image",
       "images": [
         {
-          "src": "https://nofilmschool.com/sites/default/files/styles/facebook/public/twin_peaks_-_the_red_room.jpg?itok=bvfnoe2b",
-          "alt": "first_image"
-        },
-        {
-          "src": "https://pbblogassets.s3.amazonaws.com/uploads/2020/12/03145552/Cinematography.jpg",
+          "src": "https://officesnapshots.com/wp-content/uploads/2018/04/silicon-valley-bank-nyc-offices-2-700x525.jpg",
           "alt": "third_image"
         },
         {
-          "src": "https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png",
+          "src": "https://logodownload.org/wp-content/uploads/2021/04/first-republic-bank-logo-0.png",
+          "alt": "first_image"
+        },
+        {
+          "src": "https://www.svb.com/contentassets/be0abacbffcb4732a89d53c3fe164439/svb-logo.jpg",
           "alt": "fourth_image"
         }
       ],
-      "color": "Monthly Subscription",
-      "title": "Netflix Subscription",
-      "price": 16,
-      "subscription": true,
-      "description": "Experience the ultimate entertainment package with Netflix's premium subscription for just $16 per month, featuring 4K Ultra HD video quality, support for multiple screens, and a vast library of movies and TV shows to choose from.",
-      "full_description": "Looking for endless entertainment at your fingertips? Look no further than Netflix! With a subscription priced at just $16 per month, you'll have access to thousands of movies, TV shows, and original series that you can watch anytime, anywhere. From award-winning dramas to family-friendly comedies, Netflix has something for everyone. Don't miss out – sign up today and start streaming your favorite content!",
-      "details": "With a Netflix subscription for just $16 per month, you'll gain access to thousands of movies, TV shows, and original content that you won't find anywhere else. From award-winning dramas and comedies to thrilling action movies and documentaries, there's something for everyone on Netflix. Plus, with the ability to stream on multiple devices and download content to watch offline, you can enjoy your favorite shows and movies anytime, anywhere. Don't miss out on this incredible offer to join the millions of satisfied Netflix subscribers around the world – sign up today!\n\n\n",
+      "color": "Buy-One-Get-One!",
+      "title": "Bank-Collapse-Bundle",
+      "price": 0.99,
+      "description": "Get ready for the deal of a lifetime: buy Silicon Valley Bank for $0.99 and get First Republic Bank for free - don't miss out on this incredible bundle offer!",
+      "full_description": "Looking for a once-in-a-lifetime bargain? Look no further than our exclusive bundle deal: buy Silicon Valley Bank for just $0.99 and get First Republic Bank absolutely free! That's right, two banks for the price of one - but act fast, because this incredible offer won't last forever. Whether you're an entrepreneur, investor, or simply looking to expand your financial portfolio, this deal is too good to pass up. So why wait? Get your hands on Silicon Valley Bank and First Republic Bank today!",
+      "details": "Silicon Valley Bank and First Republic Bank have both collapsed, leading to a once-unthinkable opportunity for those seeking to acquire banks at a rock-bottom price. The bundle deal offers not one, but two banks for just a penny, giving buyers access to the combined resources of both institutions. Silicon Valley Bank, known for its expertise in serving the tech industry, and First Republic Bank, a long-standing institution in the banking world, together offer a diverse and valuable set of assets for the savvy investor. With this unique opportunity, buyers can acquire two banks for the price of a candy bar, making it a deal that simply cannot be ignored.",
       "highlights": [
-        "Unlimited Streaming: With a Netflix subscription, you'll have unlimited access to thousands of TV shows, movies, and original content, all for one low monthly price.\n\n",
-        "Ad-Free Viewing: Unlike other streaming platforms, Netflix doesn't include any ads or commercials during your viewing experience, so you can enjoy your favorite content uninterrupted.\n\n",
-        "Multiple Profiles: With a Netflix subscription, you can create up to five different profiles for different members of your household, each with their own recommendations and watch history.\n\n",
-        "Downloadable Content: With the ability to download select TV shows and movies, you can take your Netflix content on the go and watch it anywhere, without needing an internet connection.\n\n\n"
+        "Double the value: With the purchase of Silicon Valley Bank, buyers also receive First Republic Bank at no extra cost, doubling the value of the deal.\n",
+        "Access to two different markets: Silicon Valley Bank is a go-to institution for technology startups and investors, while First Republic Bank offers a wider range of services, including personal and commercial banking.\n",
+        "Opportunity for growth: By acquiring two banks at such a low cost, buyers have the opportunity to grow their portfolio and potentially profit in the long run.\n",
+        "Limited-time offer: This bundle deal is only available for a limited time, so buyers must act fast in order to take advantage of this unprecedented opportunity.\n\n"
       ],
       "features": [
-        "Award-winning content: Netflix is known for producing critically acclaimed original content, including shows like Stranger Things, The Crown, and Ozark. With a subscription for just $16 a month, you'll have access to all this and more.\n\n",
-        "Customizable playback: Netflix lets you adjust your playback settings to your preference, including speed, subtitles, and audio options. You can even create your own watchlist of shows and movies for easy access.\n\n",
-        "Variety of genres: Whether you're in the mood for action, romance, comedy, or horror, Netflix has a wide selection of content to choose from. With a subscription at just $16 a month, you'll never run out of things to watch.\n\n",
-        "Compatibility with multiple devices: With a Netflix subscription, you can stream your favorite shows and movies on multiple devices, including your phone, tablet, laptop, or TV. Plus, you can watch on up to four different screens at the same time, perfect for sharing with family or friends.\n\n\n"
+        "Risk involved: While the deal offers two banks for just $0.99, it's important to note that both banks have collapsed, meaning there is a risk involved in this purchase.\n",
+        "Legal considerations: The acquisition of two collapsed banks may come with legal considerations, such as regulatory approval and potential liabilities.\n",
+        "Potential rewards: Despite the risks involved, the purchase of two banks at such a low cost has the potential for high rewards if the buyer is able to turn them around successfully.\n",
+        "Opportunity for diversification: By acquiring both Silicon Valley Bank and First Republic Bank, buyers have the opportunity to diversify their portfolio and expand their financial holdings.\n\n"
       ],
-      "rating": 4.9,
-      "reviews": 1000,
+      "rating": 2.8,
+      "reviews": 56183,
       "stock": true
     }
   ],
@@ -182,52 +182,229 @@
   ],
   "reviews": [
     {
-      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Hector Gibbs",
+      "name": "Linda Smith",
+      "date": "April 1, 2024",
+      "rating": 5,
+      "comment": "I used to be a productive member of society until I got Netflix. Now I'm a professional binge-watcher!",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "John Doe",
+      "date": "September 10, 2023",
+      "rating": 4,
+      "comment": "Netflix is the perfect excuse to avoid my responsibilities and just relax. Highly recommended!",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Karen Brown",
+      "date": "November 28, 2023",
+      "rating": 5,
+      "comment": "I thought I had seen every movie and TV show out there, but Netflix keeps surprising me with new and exciting content. Love it!",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Bob Johnson",
+      "date": "May 4, 2023",
+      "rating": 5,
+      "comment": "I used to think my life was boring, but then I got Netflix and now I have a never-ending supply of entertainment. Thank you, Netflix!",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1534126416832-a88fdf2911c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Maggie Smith",
+      "date": "May 4, 2023",
+      "rating": 5,
+      "comment": "I've been binge-watching my favorite shows all weekend thanks to Netflix! Their library is so extensive that I can always find something new to watch.",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Tony Stark",
+      "date": "April 29, 2023",
+      "rating": 5,
+      "comment": "I've been using Netflix for years now, and I can't imagine going without it. They always have the latest and greatest shows and movies, and the streaming quality is top-notch.",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Alice Wonder",
+      "date": "May 2, 2023",
+      "rating": 4,
+      "comment": "Netflix is my go-to for movie night with my friends. We always find something new and exciting to watch, and the ability to download shows and movies for offline viewing is a lifesaver!",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Bob Ross",
+      "date": "April 30, 2023",
+      "rating": 5,
+      "comment": "Netflix is my happy place! I love being able to relax and watch my favorite shows and movies without any interruptions. The low monthly price is just icing on the cake!",
+      "productID": "netflix",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Ginger Snaps",
+      "date": "May 2, 2023",
+      "rating": 5,
+      "comment": "I never knew what true love was until I met my AirPods Max. These headphones are like butter on my ears!",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Johnny Appleseed",
+      "date": "April 30, 2023",
+      "rating": 4,
+      "comment": "My AirPods Max are so comfortable, I forget I'm wearing them... and then I try to walk away and get yanked back by the cord, oh wait, there's no cord! I'm freeeee!",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Betty Boop",
+      "date": "April 29, 2023",
+      "rating": 5,
+      "comment": "I put on my AirPods Max and suddenly I'm in my own little world, where all my coworkers have been replaced by dancing unicorns. This is the best day ever!",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Cheddar Cheese",
+      "date": "April 28, 2023",
+      "rating": 5,
+      "comment": "I was a little worried that my AirPods Max would be too big for my head, but it turns out they're the perfect size for my giant, cheese-loving ears. Thanks, Apple!",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Lila Perry",
+      "date": "June 8, 2023",
+      "rating": 5,
+      "comment": "I've never heard music like this before! I feel like I'm in a concert hall, but without the sticky floors and overpriced drinks.",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Maxwell O'Connor",
+      "date": "August 15, 2023",
+      "rating": 5,
+      "comment": "I'm pretty sure these headphones are magic. The sound quality is so good, I can't even hear my kids arguing in the next room.",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Samantha Lee",
+      "date": "May 28, 2023",
+      "rating": 4,
+      "comment": "I've been wearing these headphones for so long, I forgot they were even on my head. I had to check to make sure I wasn't walking around the house with them on.",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Mark Davis",
+      "date": "July 29, 2023",
+      "rating": 5,
+      "comment": "I love these headphones so much, I almost feel bad for my old earbuds. Almost.",
+      "productID": "airpods",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Cindy Lauper",
+      "date": "July 4, 2023",
+      "rating": 5,
+      "comment": "Bought Twitter for $9,000,000 and now my followers think I'm rich and famous! #investmentgoals #fakelife",
+      "productID": "twitter",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Harry Potter",
+      "date": "September 1, 2023",
+      "rating": 4,
+      "comment": "Who needs magic when you can own a piece of Twitter? Just hoping I don't get expelled from the stock market. #muggleinvestor",
+      "productID": "twitter",
+      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Mia Wallace",
+      "date": "October 31, 2023",
+      "rating": 5,
+      "comment": "Got Twitter stock for Halloween and it's been a treat watching the value grow! #investmentsarebetterthancandy",
+      "productID": "twitter",
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Barbie Doll",
+      "date": "December 25, 2023",
+      "rating": 4,
+      "comment": "My Ken got me Twitter stock for Christmas and it's the most thoughtful gift he's ever given me. #betterthanadjacentdreamhouse",
+      "productID": "twitter",
+      "avatar": "https://images.unsplash.com/photo-1534126416832-a88fdf2911c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {    "name": "Lola Richards",    "date": "June 2, 2023",    "rating": 5,    "comment": "I've been tweeting non-stop since buying a piece of Twitter. Now my followers think I'm a social media guru. Thanks, Twitter!",    "productID": "twitter",    "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"  },  {    "name": "Juanita Rodriguez",    "date": "May 27, 2023",    "rating": 4,    "comment": "My husband thought I was crazy for buying a piece of Twitter, but now he's begging me to invest in more social media platforms. Thanks, Twitter, for making me look like a genius!",    "productID": "twitter",    "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"  },  {    "name": "James Park",    "date": "May 31, 2023",    "rating": 5,    "comment": "I used to spend all my time on social media, but now I get paid for it! Thanks, Twitter, for giving me an excuse to be a couch potato.",    "productID": "twitter",    "avatar": "https://images.unsplash.com/photo-1534126416832-a88fdf2911c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"  },  {    "name": "Emily Nguyen",    "date": "June 3, 2023",    "rating": 4,    "comment": "I never thought I'd be a social media mogul, but here I am, thanks to Twitter! I'm still waiting for the paparazzi to show up...",    "productID": "twitter",    "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"  },
+    {
+      "name": "Linda Gonzalez",
+      "date": "June 8, 2023",
+      "rating": 5,
+      "comment": "I was skeptical at first, but after buying Silicon Valley Bank for $0.99 and getting First Republic Bank for free, I felt like I robbed a bank! Wait, no, that didn't come out right...",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Alex Kim",
+      "date": "July 2, 2023",
+      "rating": 4,
+      "comment": "I was looking for a bank, but I got two for the price of one! Silicon Valley Bank and First Republic Bank have been great so far. Now I can finally afford to buy that yacht I've always wanted. Kidding, kidding...",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Michelle Patel",
       "date": "July 17, 2023",
       "rating": 5,
-      "comment": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. ",
-      "productID": "01"
+      "comment": "I couldn't believe my luck when I saw this deal - it was almost too good to be true! But after using both Silicon Valley Bank and First Republic Bank, I can confidently say that this bundle is a steal. Now if only I could get a deal like this on my student loans...",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
     },
     {
-      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Willie Manson",
-      "date": "Aug 18, 2023",
+      "name": "Tyler Johnson",
+      "date": "August 1, 2023",
       "rating": 4,
-      "comment": "It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn’t matter.",
-      "productID": "01"
+      "comment": "I've never been a fan of banks, but Silicon Valley Bank and First Republic Bank have been surprisingly easy to use. And at this price, I can finally afford to have a bank account AND a social life. Who knew?",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
     },
     {
-      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Mary Doyle",
-      "date": "Nov 11, 2023",
+      "name": "Martha Thomas",
+      "date": "August 20, 2023",
       "rating": 5,
-      "comment": "It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn’t matter.",
-      "productID": "01"
+      "comment": "I couldn't believe my luck when I saw this offer. Two banks for less than a dollar? Sign me up! I'm so glad I took advantage of this deal.",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
     },
     {
-      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Joe Molly",
-      "date": "Mar 23, 2023",
-      "rating": 3,
-      "comment": "It’s like a little kid, a little boy, looking at colors, and no one told him what colors are good, before somebody tells you you shouldn’t like pink.",
-      "productID": "01"
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1534126416832-a88fdf2911c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Keisha Megan",
-      "date": "Jun 21, 2023",
+      "name": "John Brown",
+      "date": "September 1, 2023",
       "rating": 4,
-      "comment": "For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-      "productID": "01"
+      "comment": "I wasn't sure if this was too good to be true, but I took a chance and I'm glad I did. I've already started using both banks and I'm very happy with my decision.",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
     },
     {
-      "avatar": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Kevin Klein",
-      "date": "Dec 01, 2023",
+      "name": "Samantha Lee",
+      "date": "October 3, 2023",
       "rating": 5,
-      "comment": "Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible to get a pure thought out.",
-      "productID": "01"
+      "comment": "What a deal! I was skeptical at first, but I read some reviews and decided to give it a try. I'm so glad I did, because now I have two great banks at an unbeatable price.",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "David Kim",
+      "date": "November 10, 2023",
+      "rating": 4,
+      "comment": "I'm not sure how they can afford to offer such a great deal, but I'm not complaining! I got two banks for less than a dollar, and both are working great for me so far.",
+      "productID": "svb",
+      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"
     }
   ],
   "orders": [

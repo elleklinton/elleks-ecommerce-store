@@ -27,6 +27,7 @@ export default function CardProduct({
 }: Props) {
 
   const classList = "card-body " + "text-" + position;
+  const formattedPrice = parseFloat(price.toFixed(2)).toLocaleString(undefined, { minimumFractionDigits: 2 }) + (subscription ? '/month' : '')
 
   return (
     <>
@@ -50,8 +51,8 @@ export default function CardProduct({
             }
 
             {(price) &&
-              <p className="mb-0 text-sm text-body mt-1 mb-3">
-                ${price.toFixed(2) + (subscription ? '/month' : '')}
+              <p className="mb-0 text-lg text-body mt-1 mb-3">
+                <strong>${formattedPrice}</strong>
               </p>
             }
 

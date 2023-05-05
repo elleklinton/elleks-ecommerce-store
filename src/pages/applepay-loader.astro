@@ -85,9 +85,50 @@ const {product = {subscription:false}} = Astro.props
 
     const getProductPrice = (product) => product.price
     const getShipping = () => 5
-    const getTaxTotal = (product) => getProductPrice(product) * 0.085
+    const getTaxTotal = (product) => (getProductPrice(product) * 0.085)
+
+    function getLineItems(product) {
+        let totalCost = 0
+        const lineItems = [
+            {
+                "label": product.title,
+                "type": "final",
+                "amount": getProductPrice(product)
+            },
+            {
+                "label": "Tax",
+                "type": "final",
+                "amount": parseFloat(getTaxTotal(product).toFixed(2))
+            },
+            {
+                "label": "Shipping",
+                "type": "final",
+                "amount": getShipping()
+            }
+        ]
+            .filter(i => {
+                if (product.subscription) {
+                    if (['Shipping', 'Tax'].includes(i.label)) {
+                        return false
+                    }
+                } else if (product.id === 'twitter' || product.id === 'svb') {
+                    if (i.label === 'Shipping') {
+                        return false
+                    }
+                }
+                totalCost += i.amount
+                return true
+            })
+
+        return {
+            totalCost,
+            lineItems
+        }
+    }
 
     function getSession(config, product, storeName, ApplePaySession, paypal) {
+        let {totalCost, lineItems} = getLineItems(product)
+
         const paymentRequest = {
             countryCode: config.countryCode,
             merchantCapabilities: config.merchantCapabilities,
@@ -97,30 +138,11 @@ const {product = {subscription:false}} = Astro.props
             recurringPaymentRequest: recurringPaymentRequest(product),
             paymentTiming: paymentTiming(product),
             requiredBillingContactFields: ["name", "phone", "email", "postalAddress"],
-            lineItems: [
-                {
-                    "label": product.title,
-                    "type": "final",
-                    "amount": getProductPrice(product),
-                    paymentTiming: paymentTiming(product),
-                },
-                {
-                    "label": "Tax",
-                    "type": "final",
-                    "amount": getTaxTotal(product),
-                    paymentTiming: paymentTiming(product),
-                },
-                {
-                    "label": "Shipping",
-                    "type": "final",
-                    "amount": getShipping(),
-                    paymentTiming: paymentTiming(product),
-                }
-            ],
+            lineItems: lineItems,
             total: {
                 label: storeName,
                 type: "final",
-                amount: getProductPrice(product) + getTaxTotal(product) + getShipping(),
+                amount: totalCost,
                 paymentTiming: paymentTiming(product)
             }
         };

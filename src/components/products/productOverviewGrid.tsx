@@ -32,6 +32,8 @@ export default function ProductOverview({
   reviews,
     features
 }: Props) {
+  const formattedPrice = parseFloat((price ?? 0).toFixed(2)).toLocaleString(undefined, { minimumFractionDigits: 2 }) + (subscription ? '/month' : '')
+
   // @ts-ignore
   return (
     <>
@@ -78,13 +80,10 @@ export default function ProductOverview({
         </div>
         <div className="col-12 col-lg-4 ps-4">
           <form action="" method="post">
-            {/* @ts-ignore */}
-            {(price.length != 0) &&
             <div className="d-flex">
-              <h3 className="font-weight-normal">${price.toFixed(2) + (subscription ? '/month' : '')}</h3>
+              <h3 className="font-weight-normal">${formattedPrice}</h3>
               <input className="opacity-0" defaultValue={price} />
             </div>
-            }
             {(rating != 0) &&
             <>
               <h3 className="sr-only">Reviews</h3>

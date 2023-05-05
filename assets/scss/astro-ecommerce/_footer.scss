@@ -21,6 +21,11 @@
 }
 
 .success-bucket {
-  height: 50vh;
+  min-height: 80vh;
 }
 
+.success-img {
+  height: 30vh;
+  max-width: 80vw;
+  object-fit: contain;
+}

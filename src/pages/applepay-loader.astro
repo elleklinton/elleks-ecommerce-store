@@ -133,7 +133,7 @@ const {product = {subscription:false}} = Astro.props
         const paymentRequest = {
             countryCode: config.countryCode,
             merchantCapabilities: config.merchantCapabilities,
-            supportedNetworks: config.supportedNetworks,
+            supportedNetworks: ["VISA", "MASTERCARD", "AMEX", "DISCOVER"],
             currencyCode: "USD",
             requiredShippingContactFields: requiredShippingContactFields(product),
             recurringPaymentRequest: recurringPaymentRequest(product),

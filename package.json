@@ -6,8 +6,8 @@
   "main": "assets/js/astro-ecommerce.min.js",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "start:https": "http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key",
+    "start": "astro dev -p 8000",
+    "start:https": "http-server -p 8000 --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"

@@ -129,11 +129,12 @@ const {product = {subscription:false}} = Astro.props
 
     function getSession(config, product, storeName, ApplePaySession, paypal) {
         let {totalCost, lineItems} = getLineItems(product)
+        console.log('Apple Pay config', config)
 
         const paymentRequest = {
             countryCode: config.countryCode,
             merchantCapabilities: config.merchantCapabilities,
-            supportedNetworks: ["VISA", "MASTERCARD", "AMEX", "DISCOVER"],
+            supportedNetworks: config.supportedNetworks,
             currencyCode: "USD",
             requiredShippingContactFields: requiredShippingContactFields(product),
             recurringPaymentRequest: recurringPaymentRequest(product),
